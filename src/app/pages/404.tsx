@@ -4,20 +4,17 @@ import { Container } from "react-bootstrap";
 import { Fade } from "react-awesome-reveal";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { headData } from "../personal/data";
 import "../style/main.scss";
 import Head from "next/head";
 
-export default () => {
-  const { lang } = headData;
-
+export default function FourOhFour() {
   return (
     <>
       <Head>
+        <html lang="en" />
         <meta charSet="utf-8" />
         <title>Page not found</title>
         <link rel="icon" href="/favicon.ico" />
-        <html lang={lang || "en"} />
         <meta name="description" content="Page not found" />
       </Head>
       <section id="hero" className="jumbotron">
@@ -41,4 +38,4 @@ export default () => {
       </section>
     </>
   );
-};
+}
