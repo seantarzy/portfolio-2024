@@ -50,8 +50,8 @@ export const projectsData: ProjectsDataI[] = [
     info: "Like the card game 'War', except using baseball players and a particulair baseball statistic for the card's value. Now has Multiplayer functionality!",
     info2:
       "Tools Used: React.ts, Vite, Ruby on Rails, ActionCable, WebSockets, CSS3, HTML5, Bootstrap, Heroku, Netlify",
-    url: "https://github.com/seantarzy/war-games-vite/",
-    repo: "https://github.com/seantarzy/war-games-2.0-frontend", // if no repo, the button will not show up
+    url: "https://baberuth.app/",
+    repo: "https://github.com/seantarzy/war-games-vite/", // if no repo, the button will not show up
   },
   {
     type: "projects",

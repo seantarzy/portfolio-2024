@@ -13,6 +13,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/st-logo.png" />
+        <meta name="name" content="Sean Tarzy" />
+        <meta name="description" content="Sean Tarzy's Portfolio" />
+        <meta name="keywords" content="Sean Tarzy, Portfolio" />
+        <title>{headData.title as string}</title>
       </head>
       <Head>
         <meta charSet="utf-8" />
