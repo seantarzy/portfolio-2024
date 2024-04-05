@@ -11,7 +11,7 @@ export interface PortfolioDataI {
   title: string;
   info: string;
   info2?: string;
-  url: string;
+  url?: string;
 }
 
 export interface ProjectsDataI extends PortfolioDataI {

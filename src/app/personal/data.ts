@@ -61,7 +61,6 @@ export const projectsData: ProjectsDataI[] = [
     info: "Ever use Quizlet? Now imagine those digital flashcards incorporating your favorite song lyrics to help make studying effective and fun. And not just any lyrics, but lyrics whose initials line up perfectly to those of the phrase or list you need to remember. Add these mnemonic devices to a playlist of your choosing and listen to your flashcards come to life!",
     info2:
       "Tools Used: React.js, Redux, Ruby on Rails, Rest-Client (for web scraping)",
-    url: "https://mnemonicmaker.netlify.app/",
     repo: "https://github.com/seantarzy/Mnemonic-2.0-front-end", // if no repo, the button will not show up
   },
   {
