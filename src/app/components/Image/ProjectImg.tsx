@@ -8,6 +8,9 @@ import SpeedDate from "../../images/speed-dating.png";
 import GenuineLeader from "../../images/genuine-leader.png";
 import TeacherToCoder from "../../images/teacher-to-coder.jpg";
 import SeaMonster from "../../images/sea-monster-riddle.png";
+import StudioLogo from "../../images/studio-logo-black.png";
+import CharlesBertrand from "../../images/charles-bertrand.png";
+
 const nameToImg: Record<string, StaticImageData> = {
   "babe-ruth": BabeRuth,
   mneumonic: Mneumonic,
@@ -15,7 +18,9 @@ const nameToImg: Record<string, StaticImageData> = {
   "speed-dating": SpeedDate,
   "genuine-leader": GenuineLeader,
   "teacher-to-coder": TeacherToCoder,
+  "studio-logo": StudioLogo,
   "sea-monster-riddle": SeaMonster,
+  "science-is-how": CharlesBertrand
 };
 const ProjectImg = ({
   filename,

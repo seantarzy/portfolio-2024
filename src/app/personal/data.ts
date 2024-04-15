@@ -45,13 +45,23 @@ export const projectsData: ProjectsDataI[] = [
   {
     type: "projects",
     id: nanoid(),
+    img: "studio-logo",
+    title: "The Studio Worldwide",
+    info: "The Studio Worldwide is the new access point to artists and the art world. I handled full-stack development for this site, allowing users to view media and purchase art.",
+    info2: "Tools Used: Next.js, TypeScript, Prismic, Shopify, CSS3, HTML5",
+    url: "https://www.thestudioworldwide.com/",
+    repo: ""
+  },
+  {
+    type: "projects",
+    id: nanoid(),
     img: "babe-ruth",
     title: "War Games",
     info: "Like the card game 'War', except using baseball players and a particulair baseball statistic for the card's value. Now has Multiplayer functionality!",
     info2:
       "Tools Used: React.ts, Vite, Ruby on Rails, ActionCable, WebSockets, CSS3, HTML5, Bootstrap, Heroku, Netlify",
     url: "https://baberuth.app/",
-    repo: "https://github.com/seantarzy/war-games-vite/", // if no repo, the button will not show up
+    repo: "https://github.com/seantarzy/war-games-vite/" // if no repo, the button will not show up
   },
   {
     type: "projects",
@@ -61,7 +71,7 @@ export const projectsData: ProjectsDataI[] = [
     info: "Ever use Quizlet? Now imagine those digital flashcards incorporating your favorite song lyrics to help make studying effective and fun. And not just any lyrics, but lyrics whose initials line up perfectly to those of the phrase or list you need to remember. Add these mnemonic devices to a playlist of your choosing and listen to your flashcards come to life!",
     info2:
       "Tools Used: React.js, Redux, Ruby on Rails, Rest-Client (for web scraping)",
-    repo: "https://github.com/seantarzy/Mnemonic-2.0-front-end", // if no repo, the button will not show up
+    repo: "https://github.com/seantarzy/Mnemonic-2.0-front-end" // if no repo, the button will not show up
   },
   {
     type: "projects",
@@ -71,7 +81,17 @@ export const projectsData: ProjectsDataI[] = [
     info: "A simple game where you calculate the day of the week based on the date provided.",
     info2: "Tools Used: React.ts, Vite, CSS3, HTML5, Netlify",
     url: "https://main--speed-dating-calc.netlify.app/",
-    repo: "https://github.com/seantarzy/speed-dating/tree/main",
+    repo: "https://github.com/seantarzy/speed-dating/tree/main"
+  },
+  {
+    type: "projects",
+    id: nanoid(),
+    img: "science-is-how",
+    title: "Science is How",
+    info: "A site that answers the question 'How does that work?' with a focus on science, math, and technology. Think 'Brilliant.org' but with a more casual tone.",
+    info2: "Tools Used: React.ts, Vite, CSS3, HTML5",
+    url: "https://science-is-how.netlify.app/",
+    repo: "https://github.com/seantarzy/science-is-how/tree/main"
   },
   {
     type: "projects",
@@ -83,8 +103,8 @@ export const projectsData: ProjectsDataI[] = [
       "Tools Used: React.js, Node.js, Puppeteer (for web scraping), ToolTip and InfoBox to create a Bitcoin stock chart  * Currently Working on this project!",
     url: "https://whatsbitcoinsprice.com/",
 
-    repo: "https://github.com/seantarzy/bitcoin-project-frontend", // if no repo, the button will not show up
-  },
+    repo: "https://github.com/seantarzy/bitcoin-project-frontend"
+  }
 ];
 export const blogsData: BlogsDataI[] = [
   {
