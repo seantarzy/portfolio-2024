@@ -90,7 +90,7 @@ export const projectsData: ProjectsDataI[] = [
     title: "Science is How",
     info: "A site that answers the question 'How does that work?' with a focus on science, math, and technology. Think 'Brilliant.org' but with a more casual tone.",
     info2: "Tools Used: React.ts, Vite, CSS3, HTML5",
-    url: "https://science-is-how.netlify.app/",
+    url: "scienceishow.com",
     repo: "https://github.com/seantarzy/science-is-how/tree/main"
   },
   {
